@@ -27,5 +27,6 @@
 				"Tabler": "Ahmedsaoud31\\Tabler\\Facades"
 			}
 		}
-	}
+	},
+	"minimum-stability": "dev"
 }
