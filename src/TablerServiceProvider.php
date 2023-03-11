@@ -14,9 +14,15 @@ class TablerServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/courier.php' => config_path('courier.php'),
+            __DIR__.'/../config/tabler.php' => config_path('tabler.php'),
+        ]);
+        $this->publishes([
             __DIR__.'/../app/Http/Controllers/TablerController.php' => app_path('Http/Controllers/TablerController.php'),
-            __DIR__.'/../resources/views/tabler' => resource_path('views/tabler'),
+        ]);
+        $this->publishes([
+            __DIR__.'/../resources/views/tabler' => resource_path('views/vendor/tabler'),
+        ]);
+        $this->publishes([
             __DIR__.'/../lang' => base_path('lang/ar.json'),
         ]);
         $this->publishes([
