@@ -17,6 +17,7 @@ class TablerServiceProvider extends ServiceProvider
             __DIR__.'/../config/courier.php' => config_path('courier.php'),
             __DIR__.'/../app/Http/Controllers/TablerController.php' => app_path('Http/Controllers/TablerController.php'),
             __DIR__.'/../resources/views/tabler' => resource_path('views/tabler'),
+            __DIR__.'/../lang' => base_path('lang/ar.json'),
         ]);
         $this->publishes([
             __DIR__.'/../public' => public_path('/'),
