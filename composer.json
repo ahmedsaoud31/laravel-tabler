@@ -1,0 +1,31 @@
+{
+    "name": "ahmedsaoud31/laravel-tabler",
+    "description": "Tabler Template Themes for Laravel",
+    "license": "MIT",
+	"keywords": [],
+	"autoload": {
+		"psr-4": {
+		  "Ahmedsaoud31\\Tabler\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=8.1",
+		"laravel/framework": ">=10.0",
+	},
+	"authors": [
+		{
+		  "name": "Ahmed Aboelsaoud",
+		  "email": "ahmedsaoud31@gmail.com"
+		}
+	],
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Ahmedsaoud31\\Tabler\\TablerServiceProvider"
+			],
+			"aliases": {
+				"Tabler": "Ahmedsaoud31\\Tabler\\Facades"
+			}
+		}
+	}
+}
