@@ -21,7 +21,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Ahmedsaoud31\\Tabler\\TablerServiceProvider"
+				"Tabler\\TablerServiceProvider"
 			],
 			"aliases": {
 				"Tabler": "Ahmedsaoud31\\Tabler\\Facades"
