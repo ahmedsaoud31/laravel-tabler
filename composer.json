@@ -5,7 +5,7 @@
 	"keywords": [],
 	"autoload": {
 		"psr-4": {
-		  "Ahmedsaoud31\\Tabler\\": "src/"
+		  "Tabler\\": "src/"
 		}
 	},
 	"require": {
