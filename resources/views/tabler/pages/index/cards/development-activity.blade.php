@@ -12,6 +12,7 @@
           <div>Today's Earning: $4,262.40</div>
           <div class="text-muted">
             @include('tabler::icons.svg.trending-up')
+            +5% more than yesterday</div>
         </div>
       </div>
     </div>
