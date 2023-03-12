@@ -37,8 +37,7 @@
               <h3 class="card-title">Card with action</h3>
               <div class="card-actions">
                 <a href="#" class="btn btn-primary">
-                  <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+                  @include('tabler::icons.svg.plus')
                   Add new
                 </a>
               </div>
@@ -58,13 +57,11 @@
               <h3 class="card-title">Cart title</h3>
               <div class="card-actions">
                 <a href="#" class="btn">
-                  <!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                  @include('tabler::icons.svg.phone')
                   Phone
                 </a>
                 <a href="#" class="btn">
-                  <!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+                  @include('tabler::icons.svg.mail')
                   Email
                 </a>
               </div>
@@ -94,13 +91,11 @@
               </div>
               <div class="card-actions">
                 <a href="#" class="btn">
-                  <!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                  @include('tabler::icons.svg.phone')
                   Phone
                 </a>
                 <a href="#" class="btn">
-                  <!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+                  @include('tabler::icons.svg.mail')
                   Email
                 </a>
               </div>
@@ -177,8 +172,8 @@
               </div>
               <div class="card-actions">
                 <div class="dropdown">
-                  <a href="#" class="btn-action dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><!-- Download SVG icon from http://tabler-icons.io/i/dots-vertical -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="1" /><circle cx="12" cy="19" r="1" /><circle cx="12" cy="5" r="1" /></svg>
+                  <a href="#" class="btn-action dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    @include('tabler::icons.svg.dots-vertical')
                   </a>
                   <div class="dropdown-menu dropdown-menu-end">
                     <a class="dropdown-item" href="#">Edit user</a>
@@ -202,17 +197,17 @@
             <div class="card-header">
               <h3 class="card-title">Card actions</h3>
               <div class="card-actions btn-actions">
-                <a href="#" class="btn-action" ><!-- Download SVG icon from http://tabler-icons.io/i/refresh -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" /><path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" /></svg>
+                <a href="#" class="btn-action" >
+                  @include('tabler::icons.svg.refresh')
                 </a>
-                <a href="#" class="btn-action" ><!-- Download SVG icon from http://tabler-icons.io/i/chevron-up -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="6 15 12 9 18 15" /></svg>
+                <a href="#" class="btn-action" >
+                  @include('tabler::icons.svg.chevron-up')
                 </a>
-                <a href="#" class="btn-action" ><!-- Download SVG icon from http://tabler-icons.io/i/dots-vertical -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="1" /><circle cx="12" cy="19" r="1" /><circle cx="12" cy="5" r="1" /></svg>
+                <a href="#" class="btn-action" >
+                  @include('tabler::icons.svg.dots-vertical')
                 </a>
-                <a href="#" class="btn-action" ><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <a href="#" class="btn-action" >
+                  @include('tabler::icons.svg.x')
                 </a>
               </div>
             </div>

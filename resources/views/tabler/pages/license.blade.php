@@ -54,8 +54,7 @@
             <div class="card-body">
               <div class="d-flex align-items-center mb-3">
                 <div class="me-3">
-                  <!-- Download SVG icon from http://tabler-icons.io/i/scale -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-md" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="7" y1="20" x2="17" y2="20" /><path d="M6 6l6 -1l6 1" /><line x1="12" y1="3" x2="12" y2="20" /><path d="M9 12l-3 -6l-3 6a3 3 0 0 0 6 0" /><path d="M21 12l-3 -6l-3 6a3 3 0 0 0 6 0" /></svg>
+                  @include('tabler::icons.svg.scale')
                 </div>
                 <div>
                   <small class="text-muted">tabler/tabler is licensed under the</small>
@@ -69,32 +68,32 @@
               </div>
               <h4>Permissions</h4>
               <ul class="list-unstyled space-y-1">
-                <li><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <li>
+                  @include('tabler::icons.svg.check')
                   Commercial use</li>
-                <li><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <li>
+                  @include('tabler::icons.svg.check')
                   Modification</li>
-                <li><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <li>
+                  @include('tabler::icons.svg.check')
                   Distribution</li>
-                <li><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <li>
+                  @include('tabler::icons.svg.check')
                   Private use</li>
               </ul>
               <h4>Limitations</h4>
               <ul class="list-unstyled space-y-1">
-                <li><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <li>
+                  @include('tabler::icons.svg.x')
                   Liability</li>
-                <li><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <li>
+                  @include('tabler::icons.svg.x')
                   Warranty</li>
               </ul>
               <h4>Conditions</h4>
               <ul class="list-unstyled space-y-1">
-                <li><!-- Download SVG icon from http://tabler-icons.io/i/info-circle -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-blue" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="9" /><line x1="12" y1="8" x2="12.01" y2="8" /><polyline points="11 12 12 12 12 16 13 16" /></svg>
+                <li>
+                  @include('tabler::icons.svg.info-circle')
                   License and copyright notice</li>
               </ul>
             </div>

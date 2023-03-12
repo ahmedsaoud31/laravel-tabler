@@ -49,8 +49,7 @@
                 <div class="col-auto">
                   <div class="dropdown">
                     <a href="#" class="btn-action" data-bs-toggle="dropdown" aria-expanded="false">
-                      <!-- Download SVG icon from http://tabler-icons.io/i/dots-vertical -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="1" /><circle cx="12" cy="19" r="1" /><circle cx="12" cy="5" r="1" /></svg>
+                      @include('tabler::icons.svg.dots-vertical')
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
                       <a href="#" class="dropdown-item">Import</a>
@@ -96,8 +95,7 @@
                 <div class="col-auto">
                   <div class="dropdown">
                     <a href="#" class="btn-action" data-bs-toggle="dropdown" aria-expanded="false">
-                      <!-- Download SVG icon from http://tabler-icons.io/i/dots-vertical -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="1" /><circle cx="12" cy="19" r="1" /><circle cx="12" cy="5" r="1" /></svg>
+                      @include('tabler::icons.svg.dots-vertical')
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
                       <a href="#" class="dropdown-item">Import</a>
@@ -293,8 +291,7 @@
                 <div class="col-auto">
                   <div class="dropdown">
                     <a href="#" class="btn-action" data-bs-toggle="dropdown" aria-expanded="false">
-                      <!-- Download SVG icon from http://tabler-icons.io/i/dots-vertical -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="1" /><circle cx="12" cy="19" r="1" /><circle cx="12" cy="5" r="1" /></svg>
+                      @include('tabler::icons.svg.dots-vertical')
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
                       <a href="#" class="dropdown-item">Import</a>
@@ -334,8 +331,7 @@
                 <div class="col-auto">
                   <div class="dropdown">
                     <a href="#" class="btn-action" data-bs-toggle="dropdown" aria-expanded="false">
-                      <!-- Download SVG icon from http://tabler-icons.io/i/dots-vertical -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="1" /><circle cx="12" cy="19" r="1" /><circle cx="12" cy="5" r="1" /></svg>
+                      @include('tabler::icons.svg.dots-vertical')
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
                       <a href="#" class="dropdown-item">Import</a>
@@ -354,8 +350,8 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-auto">
-                  <span class="bg-blue text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/currency-dollar -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" /><path d="M12 3v3m0 12v3" /></svg>
+                  <span class="bg-blue text-white avatar">
+                    @include('tabler::icons.svg.currency-dollar')
                   </span>
                 </div>
                 <div class="col">
@@ -375,8 +371,8 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-auto">
-                  <span class="bg-green text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/shopping-cart -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="19" r="2" /><circle cx="17" cy="19" r="2" /><path d="M17 17h-11v-14h-2" /><path d="M6 5l14 1l-1 7h-13" /></svg>
+                  <span class="bg-green text-white avatar">
+                    @include('tabler::icons.svg.shopping-cart')
                   </span>
                 </div>
                 <div class="col">
@@ -396,8 +392,8 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-auto">
-                  <span class="bg-red text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/user -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="7" r="4" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                  <span class="bg-red text-white avatar">
+                    @include('tabler::icons.svg.user')
                   </span>
                 </div>
                 <div class="col">
@@ -417,8 +413,8 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-auto">
-                  <span class="bg-yellow text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                  <span class="bg-yellow text-white avatar">
+                    @include('tabler::icons.svg.message')
                   </span>
                 </div>
                 <div class="col">
@@ -514,8 +510,8 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-auto">
-                  <span class="bg-green-lt avatar"><!-- Download SVG icon from http://tabler-icons.io/i/arrow-up -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="18" y1="11" x2="12" y2="5" /><line x1="6" y1="11" x2="12" y2="5" /></svg>
+                  <span class="bg-green-lt avatar">
+                    @include('tabler::icons.svg.arrow-up')
                   </span>
                 </div>
                 <div class="col">
@@ -536,8 +532,8 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-auto">
-                  <span class="bg-red-lt avatar"><!-- Download SVG icon from http://tabler-icons.io/i/arrow-down -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="18" y1="13" x2="12" y2="19" /><line x1="6" y1="13" x2="12" y2="19" /></svg>
+                  <span class="bg-red-lt avatar">
+                    @include('tabler::icons.svg.arrow-down')
                   </span>
                 </div>
                 <div class="col">
@@ -558,8 +554,8 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-auto">
-                  <span class="bg-green-lt avatar"><!-- Download SVG icon from http://tabler-icons.io/i/arrow-up -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="18" y1="11" x2="12" y2="5" /><line x1="6" y1="11" x2="12" y2="5" /></svg>
+                  <span class="bg-green-lt avatar">
+                    @include('tabler::icons.svg.arrow-up')
                   </span>
                 </div>
                 <div class="col">
@@ -580,8 +576,8 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-auto">
-                  <span class="bg-red-lt avatar"><!-- Download SVG icon from http://tabler-icons.io/i/arrow-down -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="18" y1="13" x2="12" y2="19" /><line x1="6" y1="13" x2="12" y2="19" /></svg>
+                  <span class="bg-red-lt avatar">
+                    @include('tabler::icons.svg.arrow-down')
                   </span>
                 </div>
                 <div class="col">
@@ -622,8 +618,8 @@
                 <div class="card-body">
                   <div class="row align-items-center">
                     <div class="col-auto">
-                      <span class="bg-red text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                      <span class="bg-red text-white avatar">
+                        @include('tabler::icons.svg.heart')
                       </span>
                     </div>
                     <div class="col">
@@ -645,8 +641,8 @@
                 <div class="card-body">
                   <div class="row align-items-center">
                     <div class="col-auto">
-                      <span class="bg-green text-white avatar"><!-- Download SVG icon from http://tabler-icons.io/i/brand-github -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+                      <span class="bg-green text-white avatar">
+                        @include('tabler::icons.svg.brand-github')
                       </span>
                     </div>
                     <div class="col">
@@ -755,8 +751,7 @@
                     <div class="col">
                       <div class="font-weight-medium">
                         1700
-                        <!-- Download SVG icon from http://tabler-icons.io/i/trending-down -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-sm ms-1 text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="3 7 9 13 13 9 21 17" /><polyline points="21 10 21 17 14 17" /></svg>
+                        @include('tabler::icons.svg.trending-down')
                       </div>
                       <div class="text-muted">
                         Users
@@ -838,8 +833,7 @@
                   </div>
                   <div class="card-meta d-flex justify-content-between">
                     <div class="d-flex align-items-center">
-                      <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                      @include('tabler::icons.svg.check')
                       <span>5/10</span>
                     </div>
                     <span>Due 72 days</span>
@@ -869,8 +863,7 @@
                   </div>
                   <div class="card-meta d-flex justify-content-between">
                     <div class="d-flex align-items-center">
-                      <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                      @include('tabler::icons.svg.check')
                       <span>5/10</span>
                     </div>
                     <span>Due 2 days</span>
@@ -883,34 +876,28 @@
                 <div class="card-body">
                   <div class="card-title">Basic info</div>
                   <div class="mb-2">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/book -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><line x1="3" y1="6" x2="3" y2="19" /><line x1="12" y1="6" x2="12" y2="19" /><line x1="21" y1="6" x2="21" y2="19" /></svg>
+                    @include('tabler::icons.svg.book')
                     Went to: <strong>University of Ljubljana</strong>
                   </div>
                   <div class="mb-2">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/briefcase -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="7" width="18" height="13" rx="2" /><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" /><line x1="12" y1="12" x2="12" y2="12.01" /><path d="M3 13a20 20 0 0 0 18 0" /></svg>
+                    @include('tabler::icons.svg.briefcase')
                     Worked at: <strong>Devpulse</strong>
                   </div>
                   <div class="mb-2">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/home -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+                    @include('tabler::icons.svg.home')
                     Lives in: <strong>Šentilj v Slov. Goricah, Slovenia</strong>
                   </div>
                   <div class="mb-2">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/map-pin -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="11" r="3" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>
+                    @include('tabler::icons.svg.map-pin')
                     From: <strong><span class="flag flag-country-si"></span>
                       Slovenia</strong>
                   </div>
                   <div class="mb-2">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/calendar -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><line x1="11" y1="15" x2="12" y2="15" /><line x1="12" y1="15" x2="12" y2="18" /></svg>
+                    @include('tabler::icons.svg.calendar')
                     Birth date: <strong>13/01/1985</strong>
                   </div>
                   <div>
-                    <!-- Download SVG icon from http://tabler-icons.io/i/clock -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="9" /><polyline points="12 7 12 12 15 15" /></svg>
+                    @include('tabler::icons.svg.clock')
                     Time zone: <strong>Europe/Ljubljana</strong>
                   </div>
                 </div>
@@ -924,8 +911,8 @@
                   </h3>
                   <div class="card-actions">
                     <a href="#">
-                      Edit configuration<!-- Download SVG icon from http://tabler-icons.io/i/edit -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" /><path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z" /><path d="M16 5l3 3" /></svg>
+                      Edit configuration
+                      @include('tabler::icons.svg.edit')
                     </a>
                   </div>
                 </div>

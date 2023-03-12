@@ -50,38 +50,38 @@
               </tr>
               <tr>
                 <td>Some info about feature</td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
               </tr>
               <tr>
                 <td>Online payment gateway</td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.x')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
               </tr>
               <tr>
                 <td>Unlimited products can be sold</td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.x')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.x')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
               </tr>
               <tr class="bg-light">
@@ -89,26 +89,26 @@
               </tr>
               <tr>
                 <td>Free hosting and domain name</td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
               </tr>
               <tr>
                 <td>Admin dashboard to control items</td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
               </tr>
               <tr class="bg-light">
@@ -116,26 +116,26 @@
               </tr>
               <tr>
                 <td>Email marketing and service</td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.x')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.x')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
               </tr>
               <tr>
                 <td>24/7 customer support online</td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/x -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-red" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.x')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
-                <td class="text-center"><!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                <td class="text-center">
+                  @include('tabler::icons.svg.check')
                 </td>
               </tr>
             </tbody>

@@ -17,8 +17,7 @@
           <div class="d-flex">
             <input type="search" class="form-control d-inline-block w-9 me-3" placeholder="Search user…"/>
             <a href="#" class="btn btn-primary">
-              <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+              @include('tabler::icons.svg.plus')
               New user
             </a>
           </div>
@@ -40,11 +39,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -60,11 +59,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -80,11 +79,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -100,11 +99,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -119,11 +118,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -138,11 +137,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -157,11 +156,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn"><
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -176,11 +175,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -195,11 +194,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -214,11 +213,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -233,11 +232,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -252,11 +251,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -271,11 +270,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -290,11 +289,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn"><
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -309,11 +308,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -328,11 +327,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -347,11 +346,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -366,11 +365,11 @@
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/mail -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.mail')
                 Email</a>
-              <a href="#" class="card-btn"><!-- Download SVG icon from http://tabler-icons.io/i/phone -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon me-2 text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+              <a href="#" class="card-btn">
+                @include('tabler::icons.svg.phone')
                 Call</a>
             </div>
           </div>
@@ -380,8 +379,7 @@
         <ul class="pagination ms-auto">
           <li class="page-item disabled">
             <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-              <!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="15 6 9 12 15 18" /></svg>
+              @include('tabler::icons.svg.chevron-left')
               prev
             </a>
           </li>
@@ -392,8 +390,7 @@
           <li class="page-item"><a class="page-link" href="#">5</a></li>
           <li class="page-item">
             <a class="page-link" href="#">
-              next <!-- Download SVG icon from http://tabler-icons.io/i/chevron-right -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 6 15 12 9 18" /></svg>
+              @include('tabler::icons.svg.chevron-right')
             </a>
           </li>
         </ul>

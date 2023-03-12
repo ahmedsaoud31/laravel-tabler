@@ -14,8 +14,7 @@
         <!-- Page title actions -->
         <div class="col-12 col-md-auto ms-auto d-print-none">
           <a href="#" class="btn btn-primary">
-            <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+            @include('tabler::icons.svg.plus')
             Add board
           </a>
         </div>
@@ -60,24 +59,22 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           7
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.message')
                             2</a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -99,27 +96,24 @@
                         </div>
                         <div class="col-auto">
                           <a href="#" class="link-warning">
-                            <!-- Download SVG icon from http://tabler-icons.io/i/calendar -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><line x1="11" y1="15" x2="12" y2="15" /><line x1="12" y1="15" x2="12" y2="18" /></svg>
+                            @include('tabler::icons.svg.calendar')
                             10 Sep
                           </a>
                         </div>
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           6
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -139,24 +133,22 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale active" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           34
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.message')
                             4</a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -183,48 +175,42 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                         </div>
                         <div class="col-auto">
                           <a href="#" class="link-muted">
-                            <!-- Download SVG icon from http://tabler-icons.io/i/activity -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h4l3 8l4 -16l3 8h4" /></svg>
+                            @include('tabler::icons.svg.activity')
                             1/3
                           </a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.message')
                             11</a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
                     </div>
                     <div class="divide-y-2 mt-4">
                       <div>
-                        <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                        @include('tabler::icons.svg.check')
                         <span class="text-muted text-decoration-line-through">Implement new designs</span>
                       </div>
                       <div>
-                        <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                        @include('tabler::icons.svg.check')
                         Usability testing
                       </div>
                       <div>
-                        <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                        @include('tabler::icons.svg.check')
                         Design navigation changes
                       </div>
                     </div>
@@ -234,8 +220,7 @@
               <div class="col-12">
                 <div class="card card-sm">
                   <div class="ribbon ribbon-top ribbon-bookmark bg-yellow">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/star -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" /></svg>
+                    @include('tabler::icons.svg.star')
                   </div>
                   <div class="card-body">
                     <h3 class="card-title">Product Update - Q4 2021</h3>
@@ -251,24 +236,22 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           11
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.message')
                             6</a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -290,23 +273,21 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.message')
                             11</a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -337,24 +318,22 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           6
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.message')
                             9</a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -379,24 +358,22 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale active" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           5
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.message')
                             6</a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -419,18 +396,16 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -449,31 +424,28 @@
                         </div>
                         <div class="col-auto">
                           <a href="#" class="link-warning">
-                            <!-- Download SVG icon from http://tabler-icons.io/i/calendar -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><line x1="11" y1="15" x2="12" y2="15" /><line x1="12" y1="15" x2="12" y2="18" /></svg>
+                            @include('tabler::icons.svg.calendar')
                             10 Jan
                           </a>
                         </div>
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/message -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" /><line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="14" y2="13" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.message')
                             6</a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -502,19 +474,17 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           1
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
@@ -541,44 +511,38 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale active" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           7
                         </div>
                         <div class="col-auto">
                           <a href="#" class="link-muted">
-                            <!-- Download SVG icon from http://tabler-icons.io/i/activity -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h4l3 8l4 -16l3 8h4" /></svg>
+                            @include('tabler::icons.svg.activity')
                             1/3
                           </a>
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
                     </div>
                     <div class="divide-y-2 mt-4">
                       <div>
-                        <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                        @include('tabler::icons.svg.check')
                         <span class="text-muted text-decoration-line-through">Find out the old contract documents</span>
                       </div>
                       <div>
-                        <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                        @include('tabler::icons.svg.check')
                         Organize meeting sales associates to understand need in detail
                       </div>
                       <div>
-                        <!-- Download SVG icon from http://tabler-icons.io/i/check -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon text-green" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
+                        @include('tabler::icons.svg.check')
                         Make sure to cover every small details
                       </div>
                     </div>
@@ -601,19 +565,17 @@
                         <div class="col-auto text-muted">
                           <button class="switch-icon switch-icon-scale" data-bs-toggle="switch-icon">
                             <span class="switch-icon-a text-muted">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                             <span class="switch-icon-b text-red">
-                              <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                              @include('tabler::icons.svg.heart')
                             </span>
                           </button>
                           4
                         </div>
                         <div class="col-auto">
-                          <a href="#" class="link-muted"><!-- Download SVG icon from http://tabler-icons.io/i/share -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="6" cy="12" r="3" /><circle cx="18" cy="6" r="3" /><circle cx="18" cy="18" r="3" /><line x1="8.7" y1="10.7" x2="15.3" y2="7.3" /><line x1="8.7" y1="13.3" x2="15.3" y2="16.7" /></svg>
+                          <a href="#" class="link-muted">
+                            @include('tabler::icons.svg.share')
                           </a>
                         </div>
                       </div>
