@@ -24,7 +24,7 @@
 				"Tabler\\TablerServiceProvider"
 			],
 			"aliases": {
-				"Tabler": "Ahmedsaoud31\\Tabler\\Facades"
+				"Tabler": "Tabler\\Facades"
 			}
 		}
 	},

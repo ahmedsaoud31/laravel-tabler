@@ -1,9 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Cookie;
 use App\Http\Controllers\TablerController;
-use Illuminate\Support\Facades\File;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,14 +15,14 @@ use Illuminate\Support\Facades\File;
 
 Route::get('/change-layout/{layout}', function ($layout) {
     if(in_array($layout, config('tabler.layouts'))){
-      Cookie::queue('tabler_layout', $layout, 100*365*24*60);
+      Cache::forever('tabler_layout', $layout);
     }
     return redirect(url()->previous());
 });
 
 Route::get('/change-locale/{locale}', function ($locale) {
     if(in_array($locale, ['ar', 'en'])){
-      Cookie::queue('locale', $locale, 100*365*24*60);
+      Cache::forever('locale', $locale);
     }
     return redirect(url()->previous());
 });

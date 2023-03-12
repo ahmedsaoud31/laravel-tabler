@@ -3,6 +3,9 @@
 namespace Tabler;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Config;
+use Tabler\Console\Commands\TablerCommand;
+use Cache;
 
 class TablerServiceProvider extends ServiceProvider
 {
@@ -15,20 +18,20 @@ class TablerServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../config/tabler.php' => config_path('tabler.php'),
-        ]);
-        $this->publishes([
             __DIR__.'/../app/Http/Controllers/TablerController.php' => app_path('Http/Controllers/TablerController.php'),
-        ]);
-        $this->publishes([
             __DIR__.'/../resources/views/tabler' => resource_path('views/tabler'),
-        ]);
-        $this->publishes([
             __DIR__.'/../lang' => base_path('lang'),
-        ]);
-        $this->publishes([
             __DIR__.'/../public/tabler' => public_path('/tabler'),
-        ], 'public');
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+            __DIR__.'/../routes' => base_path('/routes'),
+        ]);
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                TablerCommand::class,
+            ]);
+        }
+        $this->loadRoutes();
+        $this->cacheSettings();
+
     }
 
     /**
@@ -39,5 +42,28 @@ class TablerServiceProvider extends ServiceProvider
     public function register()
     {
         
+    }
+
+    private function cacheSettings()
+    {
+        if($layout = Cache::get('tabler_layout')){
+            if(in_array($layout, config('tabler.layouts'))){
+                Config::set('tabler.layout', $layout);
+            }
+        }
+
+        if($locale = Cache::get('locale')){
+            if(in_array($locale, ['ar', 'en'])){
+                Config::set('app.locale', $locale);
+            }
+        } 
+    }
+
+    private function loadRoutes()
+    {
+        if(!file_exists(base_path('/routes/tabler.php'))){
+            copy(__DIR__.'/../routes/tabler.php', base_path('/routes/tabler.php'));
+        }
+        $this->loadRoutesFrom(base_path('routes/tabler.php'));
     }
 }
