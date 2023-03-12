@@ -11,17 +11,17 @@
       </h1>
       <div class="navbar-nav flex-row d-lg-none">
         <div class="nav-item d-none d-lg-flex me-3">
-          @include('tabler.layouts.headers.sub.sponsor-links')
+          @include('tabler::layouts.headers.sub.sponsor-links')
         </div>
         <div class="d-none d-lg-flex">
-          @include('tabler.layouts.headers.sub.mode')
-          @include('tabler.layouts.headers.sub.notifications-menu')
+          @include('tabler::layouts.headers.sub.mode')
+          @include('tabler::layouts.headers.sub.notifications-menu')
         </div>
-        @include('tabler.layouts.headers.sub.profile-menu')
+        @include('tabler::layouts.headers.sub.profile-menu')
       </div>
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="navbar-nav pt-lg-3">
-          @include("tabler.layouts.navbars.navbar")
+          @include('tabler::layouts.navbars.navbar')
         </ul>
       </div>
     </div>

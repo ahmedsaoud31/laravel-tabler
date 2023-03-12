@@ -1,4 +1,4 @@
-@extends('tabler.layouts.app')
+@extends('tabler::layouts.app')
 
 @section('content')
 <div class="page-wrapper">

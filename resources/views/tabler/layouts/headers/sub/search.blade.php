@@ -2,7 +2,7 @@
   <form action="." method="get">
     <div class="input-icon">
       <span class="input-icon-addon">
-        @include('tabler.icons.svg.search')
+        @include('tabler::icons.svg.search')
       </span>
       <input type="text" value="" class="form-control" placeholder="{{ __('Search') }}…" aria-label="Search in website">
     </div>

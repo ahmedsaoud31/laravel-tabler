@@ -3,7 +3,7 @@
     <div class="row align-items-center">
       <div class="col-auto">
         <span class="bg-facebook text-white avatar">
-          @include('tabler.icons.svg.brand-facebook')
+          @include('tabler::icons.svg.brand-facebook')
         </span>
       </div>
       <div class="col">

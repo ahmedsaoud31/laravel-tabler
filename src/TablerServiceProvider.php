@@ -29,6 +29,8 @@ class TablerServiceProvider extends ServiceProvider
                 TablerCommand::class,
             ]);
         }
+        $this->loadViewsFrom(__DIR__.'/../resources/views/tabler', 'tabler');
+        //$this->loadViewsFrom(resource_path('views/tabler'), 'tabler');
         $this->loadRoutes();
         $this->cacheSettings();
 

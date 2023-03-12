@@ -92,7 +92,7 @@
           {{ __('Cancel') }}
         </a>
         <a href="#" class="btn btn-primary ms-auto" data-bs-dismiss="modal">
-          @include('tabler.icons.svg.plus')
+          @include('tabler::icons.svg.plus')
           {{ __('Create new report') }}
         </a>
       </div>

@@ -1,4 +1,4 @@
-@extends('tabler.layouts.app')
+@extends('tabler::layouts.app')
 
 @section('content')
 <div class="page-wrapper">
@@ -18,81 +18,81 @@
     <div class="container-xl">
       <div class="row row-cards">
         <div class="col-lg-6">
-          @include('tabler.pages.charts.active-users')
+          @include('tabler::pages.charts.active-users')
         </div>
         <div class="col-4">
         </div>
         <div class="col-12">
-          @include('tabler.pages.charts.social-referrals')
+          @include('tabler::pages.charts.social-referrals')
         </div>
         <div class="col-12">
-          @include('tabler.pages.charts.tasks-overview')
+          @include('tabler::pages.charts.tasks-overview')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.demo-pie')
+          @include('tabler::pages.charts.demo-pie')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks')
+          @include('tabler::pages.charts.completion-tasks')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-2')
+          @include('tabler::pages.charts.completion-tasks-2')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-3')
+          @include('tabler::pages.charts.completion-tasks-3')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-4')
+          @include('tabler::pages.charts.completion-tasks-4')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-5')
+          @include('tabler::pages.charts.completion-tasks-5')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-6')
+          @include('tabler::pages.charts.completion-tasks-6')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-7')
+          @include('tabler::pages.charts.completion-tasks-7')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-8')
+          @include('tabler::pages.charts.completion-tasks-8')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-9')
+          @include('tabler::pages.charts.completion-tasks-9')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-10')
+          @include('tabler::pages.charts.completion-tasks-10')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.completion-tasks-11')
+          @include('tabler::pages.charts.completion-tasks-11')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.tasks')
+          @include('tabler::pages.charts.tasks')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.line-stroke')
+          @include('tabler::pages.charts.line-stroke')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.stepline')
+          @include('tabler::pages.charts.stepline')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.temperature')
+          @include('tabler::pages.charts.temperature')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.area')
+          @include('tabler::pages.charts.area')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.area-spline')
+          @include('tabler::pages.charts.area-spline')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.area-spline-stacked')
+          @include('tabler::pages.charts.area-spline-stacked')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.spline')
+          @include('tabler::pages.charts.spline')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.scatter')
+          @include('tabler::pages.charts.scatter')
         </div>
         <div class="col-lg-6 col-xl-4">
-          @include('tabler.pages.charts.combination')
+          @include('tabler::pages.charts.combination')
         </div>
       </div>
     </div>

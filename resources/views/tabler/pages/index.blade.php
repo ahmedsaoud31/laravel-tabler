@@ -1,4 +1,4 @@
-@extends("tabler.layouts.app")
+@extends('tabler::layouts.app')
 
 @section('content')
 <div class="page-wrapper">
@@ -28,11 +28,11 @@
               </a>
             </span>
             <a href="#" class="btn btn-primary d-none d-sm-inline-block" data-bs-toggle="modal" data-bs-target="#modal-report">
-              @include('tabler.icons.svg.plus')
+              @include('tabler::icons.svg.plus')
               {{ __('Create new report') }}
             </a>
             <a href="#" class="btn btn-primary d-sm-none btn-icon" data-bs-toggle="modal" data-bs-target="#modal-report" aria-label="Create new report">
-              @include('tabler.icons.svg.plus')
+              @include('tabler::icons.svg.plus')
             </a>
           </div>
         </div>
@@ -43,57 +43,57 @@
     <div class="container-xl">
       <div class="row row-deck row-cards">
         <div class="col-sm-6 col-lg-3">
-          @include('tabler.pages.index.charts.sm-sales')
+          @include('tabler::pages.index.charts.sm-sales')
         </div>
         <div class="col-sm-6 col-lg-3">
-          @include('tabler.pages.index.charts.sm-revenue')
+          @include('tabler::pages.index.charts.sm-revenue')
         </div>
         <div class="col-sm-6 col-lg-3">
-          @include('tabler.pages.index.charts.sm-new-client')
+          @include('tabler::pages.index.charts.sm-new-client')
         </div>
         <div class="col-sm-6 col-lg-3">
-          @include('tabler.pages.index.charts.sm-active-users')
+          @include('tabler::pages.index.charts.sm-active-users')
         </div>
         <div class="col-12">
           <div class="row row-cards">
             <div class="col-sm-6 col-lg-3">
-              @include('tabler.pages.index.cards.sm-sales')
+              @include('tabler::pages.index.cards.sm-sales')
             </div>
             <div class="col-sm-6 col-lg-3">
-              @include('tabler.pages.index.cards.sm-orders')
+              @include('tabler::pages.index.cards.sm-orders')
             </div>
             <div class="col-sm-6 col-lg-3">
-              @include('tabler.pages.index.cards.sm-shares')
+              @include('tabler::pages.index.cards.sm-shares')
             </div>
             <div class="col-sm-6 col-lg-3">
-              @include('tabler.pages.index.cards.sm-likes')
+              @include('tabler::pages.index.cards.sm-likes')
             </div>
           </div>
         </div>
         <div class="col-lg-6">
-          @include('tabler.pages.index.charts.mentions')
+          @include('tabler::pages.index.charts.mentions')
         </div>
         <div class="col-lg-6">
-          @include('tabler.pages.index.charts.locations')
+          @include('tabler::pages.index.charts.locations')
         </div>
         <div class="col-lg-6">
           <div class="row row-cards">
             <div class="col-12">
-              @include('tabler.pages.index.cards.using-storage')
+              @include('tabler::pages.index.cards.using-storage')
             </div>
             <div class="col-12">
-              @include('tabler.pages.index.cards.users-activity')
+              @include('tabler::pages.index.cards.users-activity')
             </div>
           </div>
         </div>
         <div class="col-lg-6">
-          @include('tabler.pages.index.cards.development-activity')
+          @include('tabler::pages.index.cards.development-activity')
         </div>
         <div class="col-12">
-          @include('tabler.pages.index.cards.tabler-icons')
+          @include('tabler::pages.index.cards.tabler-icons')
         </div>
         <div class="col-md-12 col-lg-8">
-          @include('tabler.pages.index.cards.most-visited-pages')
+          @include('tabler::pages.index.cards.most-visited-pages')
         </div>
         <div class="col-md-6 col-lg-4">
           <a href="https://github.com/sponsors/codecalm" class="card card-sponsor" target="_blank" rel="noopener" style="background-image: url({{ asset('/') }}tabler/static/sponsor-banner-homepage.svg)" aria-label="Sponsor Tabler!">
@@ -101,13 +101,13 @@
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
-          @include('tabler.pages.index.cards.social-media-traffic')
+          @include('tabler::pages.index.cards.social-media-traffic')
         </div>
         <div class="col-md-12 col-lg-8">
-          @include('tabler.pages.index.cards.tasks')
+          @include('tabler::pages.index.cards.tasks')
         </div>
         <div class="col-12">
-          @include('tabler.pages.index.cards.invoices')
+          @include('tabler::pages.index.cards.invoices')
         </div>
       </div>
     </div>
@@ -122,5 +122,5 @@
 @endpush
 
 @push('models')
-    @include('tabler.pages.index.models.new-report')
+    @include('tabler::pages.index.models.new-report')
 @endpush

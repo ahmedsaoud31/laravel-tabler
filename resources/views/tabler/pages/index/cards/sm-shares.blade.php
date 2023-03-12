@@ -3,7 +3,7 @@
     <div class="row align-items-center">
       <div class="col-auto">
         <span class="bg-twitter text-white avatar">
-          @include('tabler.icons.svg.brand-twitter')
+          @include('tabler::icons.svg.brand-twitter')
         </span>
       </div>
       <div class="col">

@@ -3,7 +3,7 @@
     <div class="row align-items-center">
       <div class="col-auto">
         <span class="bg-green text-white avatar">
-          @include('tabler.icons.svg.shopping-cart')
+          @include('tabler::icons.svg.shopping-cart')
         </span>
       </div>
       <div class="col">

@@ -1,4 +1,4 @@
-@extends('tabler.layouts.app')
+@extends('tabler::layouts.app')
 
 @section('content')
 <div class="page-wrapper">
@@ -54,13 +54,13 @@
 @endsection
 
 @push('models')
-  @include('tabler.pages.models.simple')
-  @include('tabler.pages.models.large')
-  @include('tabler.pages.models.small')
-  @include('tabler.pages.models.full-width')
-  @include('tabler.pages.models.scrollable')
-  @include('tabler.pages.models.report')
-  @include('tabler.pages.models.success')
-  @include('tabler.pages.models.danger')
-  @include('tabler.pages.models.team')
+  @include('tabler::pages.models.simple')
+  @include('tabler::pages.models.large')
+  @include('tabler::pages.models.small')
+  @include('tabler::pages.models.full-width')
+  @include('tabler::pages.models.scrollable')
+  @include('tabler::pages.models.report')
+  @include('tabler::pages.models.success')
+  @include('tabler::pages.models.danger')
+  @include('tabler::pages.models.team')
 @endpush

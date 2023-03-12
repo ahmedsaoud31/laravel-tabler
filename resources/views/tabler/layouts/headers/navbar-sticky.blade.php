@@ -12,13 +12,13 @@
         </h1>
         <div class="navbar-nav flex-row order-md-last">
           <div class="nav-item d-none d-md-flex me-3">
-            @include('tabler.layouts.headers.sub.sponsor-links')
+            @include('tabler::layouts.headers.sub.sponsor-links')
           </div>
           <div class="d-none d-md-flex">
-            @include('tabler.layouts.headers.sub.mode')
-            @include('tabler.layouts.headers.sub.notifications-menu')
+            @include('tabler::layouts.headers.sub.mode')
+            @include('tabler::layouts.headers.sub.notifications-menu')
           </div>
-          @include('tabler.layouts.headers.sub.profile-menu')
+          @include('tabler::layouts.headers.sub.profile-menu')
         </div>
       </div>
     </header>
@@ -27,9 +27,9 @@
         <div class="navbar navbar-light">
           <div class="container-xl">
             <ul class="navbar-nav">
-              @include("tabler.layouts.navbars.navbar")
+              @include('tabler::layouts.navbars.navbar')
             </ul>
-            @include('tabler.layouts.headers.sub.search')
+            @include('tabler::layouts.headers.sub.search')
           </div>
         </div>
       </div>

@@ -11,15 +11,15 @@
       </h1>
       <div class="navbar-nav flex-row order-md-last">
         <div class="d-none d-md-flex">
-          @include('tabler.layouts.headers.sub.mode')
-          @include('tabler.layouts.headers.sub.notifications-menu')
+          @include('tabler::layouts.headers.sub.mode')
+          @include('tabler::layouts.headers.sub.notifications-menu')
         </div>
-        @include('tabler.layouts.headers.sub.profile-menu')
+        @include('tabler::layouts.headers.sub.profile-menu')
       </div>
       <div class="collapse navbar-collapse" id="navbar-menu">
         <div class="d-flex flex-column flex-md-row flex-fill align-items-stretch align-items-md-center">
           <ul class="navbar-nav">
-            @include("tabler.layouts.navbars.navbar")
+            @include('tabler::layouts.navbars.navbar')
           </ul>
         </div>
       </div>

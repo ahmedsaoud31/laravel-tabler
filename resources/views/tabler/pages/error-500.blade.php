@@ -1,4 +1,4 @@
-@extends('tabler.layouts.general')
+@extends('tabler::layouts.general')
 
 @section('content')
 <div class="page page-center">

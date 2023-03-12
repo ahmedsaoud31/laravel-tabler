@@ -8,7 +8,7 @@
               <li class="list-inline-item"><a href="https://github.com/tabler/tabler" target="_blank" class="link-secondary" rel="noopener">{{ __('Source code') }}</a></li>
               <li class="list-inline-item">
                 <a href="https://github.com/sponsors/codecalm" target="_blank" class="link-secondary" rel="noopener">
-                  @include('tabler.icons.svg.heart')
+                  @include('tabler::icons.svg.heart')
                   {{ __('Sponsor') }}
                 </a>
               </li>

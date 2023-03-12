@@ -3,7 +3,7 @@
     <div class="row align-items-center">
       <div class="col-auto">
         <span class="bg-blue text-white avatar">
-          @include('tabler.icons.svg.currency-dollar')
+          @include('tabler::icons.svg.currency-dollar')
         </span>
       </div>
       <div class="col">

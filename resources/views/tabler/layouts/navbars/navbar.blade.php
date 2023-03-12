@@ -661,7 +661,7 @@ $menus =
 @endforeach
 <li class="nav-item">
   <a class="nav-link" href="{{ url('/change-locale') . '/' . (app()->getLocale() == 'en' ? 'ar' : 'en') }}">
-      @include('tabler.icons.svg.language')
+      @include('tabler::icons.svg.language')
       <span class="nav-link-title">
         @if(app()->getLocale() == 'en')
         العربية
