@@ -4,8 +4,7 @@
       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       <div class="modal-status bg-success"></div>
       <div class="modal-body text-center py-4">
-        <!-- Download SVG icon from http://tabler-icons.io/i/circle-check -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon mb-2 text-green icon-lg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="9" /><path d="M9 12l2 2l4 -4" /></svg>
+        @include('tabler::icons.svg.circle-check')
         <h3>Payment succedeed</h3>
         <div class="text-muted">Your payment of $290 has been successfully submitted. Your invoice has been sent to support@tabler.io.</div>
       </div>
