@@ -9,13 +9,13 @@
 ```jsx
 composer require ahmedsaoud31/laravel-tabler=dev-main
 ```
-####Then run artisan command:
+#### Then run artisan command:
 
 ```jsx
 php artisan tabler:install
 ```
 
-####Go to dashboard route
+#### Go to dashboard route:
 ```jsx
 /dashboard
 ```
