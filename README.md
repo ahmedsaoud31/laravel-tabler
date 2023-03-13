@@ -13,7 +13,7 @@ composer require ahmedsaoud31/laravel-tabler=dev-main
 ```json
 php artisan tabler:install
 ```
-![arabic-001.jpg](https://github.com/ahmedsaoud31/laravel-tabler/screenshots/arabic-001.jpg?raw=true&v=2)
+![arabic-001.jpg](https://github.com/ahmedsaoud31/laravel-tabler/blob/main/screenshots/arabic-001.png?raw=true&v=2)
 
 ## License
 
