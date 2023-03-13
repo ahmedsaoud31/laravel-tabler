@@ -6,11 +6,11 @@
 
 ## Installation
 
-```json
+```jsx
 composer require ahmedsaoud31/laravel-tabler=dev-main
 ```
 
-```json
+```jsx
 php artisan tabler:install
 ```
 ![arabic-001.jpg](https://github.com/ahmedsaoud31/laravel-tabler/blob/main/screenshots/arabic-001.png?raw=true&v=2)
