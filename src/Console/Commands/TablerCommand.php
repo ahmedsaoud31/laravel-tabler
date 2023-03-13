@@ -26,9 +26,12 @@ class TablerCommand extends Command
 	 */
 	public function handle(): void
 	{
+        
         $this->question('Please be patient while we copy all Tabler files to your project');
         $this->call('vendor:publish', [
             '--provider' => 'Tabler\TablerServiceProvider'
         ]);
+        $this->question('Go To:');
+        $this->info(url(config('tabler.dashboard_name')));
 	}
 }
