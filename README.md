@@ -1,5 +1,3 @@
-# Laravel tabler
-
 <p align="center">
 
 
