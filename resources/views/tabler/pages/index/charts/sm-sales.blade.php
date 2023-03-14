@@ -18,7 +18,7 @@
       <div>{{ __('Conversion rate') }}</div>
       <div class="ms-auto">
         <span class="text-green d-inline-flex align-items-center lh-1">
-          7% @include('tabler.icons.svg.trending-up')
+          7% @include('tabler::icons.svg.trending-up')
         </span>
       </div>
     </div>

@@ -22,11 +22,11 @@
         @stack('styles')
     </head>
     <body class=" {{ in_array($layout, ['boxed', 'fluid'])?'layout-'.$layout:'' }}{{ $layout == 'fluid-vertical'?'layout-fluid':'' }}">
-        @include("tabler.layouts.headers.$layout")
+        @include("tabler::layouts.headers.$layout")
 
         @yield('content')
 
-        @include("tabler.layouts.footer")
+        @include("tabler::layouts.footer")
         @stack('models')
 
         <!-- Libs JS -->

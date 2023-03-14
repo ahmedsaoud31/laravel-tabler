@@ -5,7 +5,7 @@ $menus =
   (object)[
     "name" => "index",
     "title" => "Home",
-    "href" => "$url/index",
+    "href" => "$url",
     "icon" => "home",
     "new" => false,
     "sub_menu" => false
@@ -566,14 +566,14 @@ $menus =
         (object)[
           "name" => "documentation",
           "title" => "Documentation",
-          "href" => "$url/docs/index",
+          "href" => "https://tabler.io/docs/getting-started",
           "new" => false,
           "sub_menu" => false
         ],
         (object)[
           "name" => "changelog",
           "title" => "Changelog",
-          "href" => "$url/docs/changelog",
+          "href" => "https://preview.tabler.io/changelog.html",
           "new" => false,
           "sub_menu" => false
         ],
@@ -602,7 +602,7 @@ $menus =
 <li class="nav-item {{ request()->page == $menu->name?'active':'' }}">
   <a class="nav-link" href="{{ $menu->href }}" >
     <span class="nav-link-icon d-md-none d-lg-inline-block">
-    @include("tabler.icons.svg.".$menu->icon)
+    @include("tabler::icons.svg.".$menu->icon)
     </span>
     <span class="nav-link-title">
       {{ __($menu->title) }}
@@ -613,7 +613,7 @@ $menus =
 <li class="nav-item dropdown {{ request()->page == $menu->name?'active':'' }}">
   <a class="nav-link dropdown-toggle" href="{{ $menu->href }}" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false" >
     <span class="nav-link-icon d-md-none d-lg-inline-block">
-    @include("tabler.icons.svg.".$menu->icon)
+    @include("tabler::icons.svg.".$menu->icon)
     </span>
     <span class="nav-link-title">
       {{ __($menu->title) }}

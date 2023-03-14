@@ -635,7 +635,7 @@
                             'rss' => 'RSS',
                             'brand-flickr' => 'Flickr',
                             'brand-bitbucket' => 'Bitbucket',
-                            'rand-tabler' => 'Tabler',
+                            'brand-tabler' => 'Tabler',
                           ] as $key => $value)
                   <div class="col-6 col-sm-4 col-md-2 col-xl-auto py-3">
                     <a href="#" class="btn btn-facebook w-100 btn-icon" aria-label="{{ $value }}">
@@ -668,7 +668,7 @@
                             'rss' => 'RSS',
                             'brand-flickr' => 'Flickr',
                             'brand-bitbucket' => 'Bitbucket',
-                            'rand-tabler' => 'Tabler',
+                            'brand-tabler' => 'Tabler',
                           ] as $key => $value)
                   <div class="col-6 col-sm-4 col-md-2 col-xl-auto py-3">
                     <a href="#" class="btn btn-facebook w-100">

@@ -5,7 +5,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <h1 class="navbar-brand navbar-brand-autodark">
-        <a href=".">
+        <a href="{{ config('tabler.dashboard_name') }}">
           <img src="{{ asset('/') }}tabler/static/logo.svg" width="110" height="32" alt="Tabler" class="navbar-brand-image">
         </a>
       </h1>

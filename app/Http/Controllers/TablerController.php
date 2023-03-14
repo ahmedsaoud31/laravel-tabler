@@ -13,17 +13,17 @@ class TablerController extends Controller
      */
     public function index()
     {
-      return view("tabler.pages.index");
+      return view("tabler::pages.index");
     }
 
     public function page()
     {
-      return view("tabler.pages." . request()->page , ['layout' => config('tabler.layout')]);
+      return view("tabler::pages." . request()->page , ['layout' => config('tabler.layout')]);
     }
 
     public function docs()
     {
-      return view("tabler.docs." . request()->page , ['layout' => request()->layout]);
+      return view("tabler::docs." . request()->page , ['layout' => request()->layout]);
     }
 
     /**

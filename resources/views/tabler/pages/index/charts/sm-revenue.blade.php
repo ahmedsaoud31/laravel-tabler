@@ -17,7 +17,7 @@
       <div class="h1 mb-0 me-2">$4,300</div>
       <div class="me-auto">
         <span class="text-green d-inline-flex align-items-center lh-1">
-          8% @include('tabler.icons.svg.trending-up')
+          8% @include('tabler::icons.svg.trending-up')
         </span>
       </div>
     </div>
