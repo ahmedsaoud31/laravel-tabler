@@ -49,12 +49,12 @@
             <div class="card-body p-0">
               <div class="demo-icons-list-wrap">
                 <div class="demo-icons-list">
-                  @php($files = File::allFiles(base_path().'/resources/views/tabler/icons/svg'))
+                  @php($files = File::allFiles(base_path().'/resources/views/vendor/tabler/icons/svg'))
                   @foreach($files as $file)
                     @php($name = str_replace('.blade.php', '', $file->getFilename()))
                     <a href="https://tabler-icons.io/i/{{ $name }}" target="_blank" rel="noopener" class="demo-icons-list-item" title="{{ $name }}" data-bs-toggle="tooltip" data-bs-placement="top">
                       <!-- Download SVG icon from http://tabler-icons.io/i/{{ $name }} -->
-                      @include("tabler.icons.svg.".$name)
+                      @include("tabler::icons.svg.".$name)
                     </a>
                   @endforeach
                   <div></div>
