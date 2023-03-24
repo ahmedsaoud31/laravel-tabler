@@ -13,6 +13,8 @@ use App\Http\Controllers\TablerController;
 |
 */
 
+$url_name = config('tabler.dashboard_name');
+
 Route::get('/change-layout/{layout}', function ($layout) {
     if(in_array($layout, config('tabler.layouts'))){
       Cache::forever('tabler_layout', $layout);
@@ -27,7 +29,5 @@ Route::get('/change-locale/{locale}', function ($locale) {
     return redirect(url()->previous());
 });
 
-Route::get('/dashboard', [TablerController::class, 'index']);
-Route::get('/dashboard/{page}', [TablerController::class, 'page']);
-Route::get('/tabler-panel/{layout}/docs/{page}', [TablerController::class, 'index']);
-
+Route::get($url_name, [TablerController::class, 'index']);
+Route::get($url_name .'/{page}', [TablerController::class, 'page']);

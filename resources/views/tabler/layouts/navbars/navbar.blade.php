@@ -1,5 +1,7 @@
 @php
-$url = url('/') . '/' . config('tabler.dashboard_name');
+$name = config('tabler.dashboard_name');
+$name = $name ? '/' . $name : '';
+$url = url('/') . $name;
 $menus = 
 (object)[
   (object)[
