@@ -32,6 +32,6 @@ class TablerCommand extends Command
             '--provider' => 'Tabler\TablerServiceProvider'
         ]);
         $this->question('Go To:');
-        $this->info(url(config('tabler.dashboard_name')));
+        $this->info(url(config('tabler.dashboard_name') ?? 'dashboard'));
 	}
 }
